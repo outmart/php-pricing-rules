@@ -70,9 +70,9 @@ class Lay
     public function rule(callable $case, callable $acion = null)
     {
         $attributes = [
-            'total' => $this->total,
-            'shipping_method' => $this->shippingMethod,
-            'payment_method' => $this->paymentMethod,
+            'total' => $this->total ?? null,
+            'shipping_method' => $this->shippingMethod ?? null,
+            'payment_method' => $this->paymentMethod ?? null,
         ];
 
         if ($case($attributes) && $acion) {
