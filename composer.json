@@ -1,0 +1,31 @@
+{
+    "name": "outmart/php-pricing-rules",
+    "description": "Create pricing rules that apply if the specified case matches.",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "ecommerce",
+        "outmart",
+        "pricing-rules",
+        "module"
+    ],
+    "authors": [
+        {
+            "name": "Karim Mohamed (Komtcho)",
+            "email": "komicho1996@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=8.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "OutMart\\PricingRules\\": "src/"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
